@@ -1,0 +1,6 @@
+@article{gornall2021economic,
+  title={The economic impact of venture capital: Evidence from public companies},
+  author={Gornall, Will and Strebulaev, Ilya A},
+  journal={Available at SSRN 2681841},
+  year={2021}
+}

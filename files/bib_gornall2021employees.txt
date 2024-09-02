@@ -1,0 +1,6 @@
+@article{gornall2021employees,
+  title={Do employees cheer for private equity? the heterogeneous effects of buyouts on job quality},
+  author={Gornall, Will and Gredil, Oleg and Howell, Sabrina T and Liu, Xing and Sockin, Jason},
+  journal={Working Paper},
+  year={2022}
+}

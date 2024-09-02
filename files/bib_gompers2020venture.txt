@@ -1,0 +1,10 @@
+@article{gompers2020venture,
+  title={How do venture capitalists make decisions?},
+  author={Gompers, Paul A and Gornall, Will and Kaplan, Steven N and Strebulaev, Ilya A},
+  journal={Journal of Financial Economics},
+  volume={135},
+  number={1},
+  pages={169--190},
+  year={2020},
+  publisher={Elsevier}
+}

@@ -1,0 +1,10 @@
+@article{gompers2021venture,
+  title={Venture capitalists and COVID-19},
+  author={Gompers, Paul and Gornall, Will and Kaplan, Steven N and Strebulaev, Ilya A},
+  journal={Journal of Financial and Quantitative Analysis},
+  volume={56},
+  number={7},
+  pages={2474--2499},
+  year={2021},
+  publisher={Cambridge University Press}
+}

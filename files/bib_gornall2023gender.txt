@@ -1,0 +1,6 @@
+@article{gornall2023gender,
+  title={Gender, race, and entrepreneurship: A randomized field experiment on venture capitalists and angels},
+  author={Gornall, Will and Strebulaev, Ilya A},
+  journal={Management Science},
+  year={Forthcoming}
+}

@@ -1,0 +1,6 @@
+@article{gornall2018safe,
+  title={Safe assets and dangerous liabilities: How bank-level frictions explain bank seniority},
+  author={Gornall, Will},
+  journal={Available at SSRN 2526574},
+  year={2018}
+}

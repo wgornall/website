@@ -1,0 +1,10 @@
+@article{bernard2011locally,
+  title={Locally Capped Investment Products and the RetailInvestor},
+  author={Bernard, Carole and Boyle, Phelim P and Gornall, William},
+  journal={The Journal of Derivatives},
+  volume={18},
+  number={4},
+  pages={72--88},
+  year={2011},
+  publisher={Institutional Investor Journals Umbrella}
+}

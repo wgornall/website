@@ -1,0 +1,10 @@
+@article{gornall2020squaring,
+  title={Squaring venture capital valuations with reality},
+  author={Gornall, Will and Strebulaev, Ilya A},
+  journal={Journal of Financial Economics},
+  volume={135},
+  number={1},
+  pages={120--143},
+  year={2020},
+  publisher={Elsevier}
+}

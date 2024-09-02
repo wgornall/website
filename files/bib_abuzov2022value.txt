@@ -1,0 +1,6 @@
+@article{abuzov2022value,
+  title={The Value of Privacy and the Choice of Limited Partners by Venture Capitalists},
+  author={Abuzov, Rustam and Gornall, Will and Strebulaev, Ilya A},
+  journal={Available at SSRN 4235337},
+  year={2022}
+}

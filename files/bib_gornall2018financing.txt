@@ -1,0 +1,10 @@
+@article{gornall2018financing,
+  title={Financing as a supply chain: The capital structure of banks and borrowers},
+  author={Gornall, Will and Strebulaev, Ilya A},
+  journal={Journal of Financial Economics},
+  volume={129},
+  number={3},
+  pages={510--530},
+  year={2018},
+  publisher={Elsevier}
+}

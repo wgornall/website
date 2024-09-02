@@ -1,0 +1,15 @@
+@Inbook{gornall2020palgrave,
+author="Gornall, Will
+and Strebulaev, Ilya A.",
+editor="Cumming, Douglas
+and Hammer, Benjamin",
+title="Venture Capital Valuation",
+bookTitle="The Palgrave Encyclopedia of Private Equity",
+year="2020",
+publisher="Springer International Publishing",
+address="Cham",
+pages="1--5",
+isbn="978-3-030-38738-9",
+doi="10.1007/978-3-030-38738-9_10-1",
+url="https://doi.org/10.1007/978-3-030-38738-9_10-1"
+}

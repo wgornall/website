@@ -1,1 +1,6 @@
-lorum
+@article{babina2024ob,
+  title={Customer Data Access and Fintech Entry: Early Evidence from Open Banking},
+  author={Babina, Tania and Bahaj, Saleem A. and Buchak, Greg and De Marco, Filippo and Foulis, Angus K. and Gornall, Will and Mazzola, Francesco and Yu, Tong},
+  journal={Journal of Financial Economics},
+  year={Forthcoming}
+}

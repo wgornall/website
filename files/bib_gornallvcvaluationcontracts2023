@@ -1,0 +1,17 @@
+@incollection{gornallvcvaluationcontracts2023,
+title = {Chapter 1 - The contracting and valuation of venture capital-backed companies},
+editor = {B. Espen Eckbo and Gordon M. Phillips and Morten Sorensen},
+series = {Handbook of the Economics of Corporate Finance},
+publisher = {North-Holland},
+volume = {1},
+number = {1},
+pages = {3-76},
+year = {2023},
+booktitle = {Private Equity and Entrepreneurial Finance},
+issn = {2949-964X},
+doi = {https://doi.org/10.1016/bs.hecf.2023.02.001},
+url = {https://www.sciencedirect.com/science/article/pii/S2949964X23000012},
+author = {Will Gornall and Ilya A. Strebulaev},
+keywords = {Startups, Early-stage companies, Valuation, Contracting, Venture capital, Convertible preferred stock, Convertible notes, SAFE, Corporate governance},
+abstract = {Fast-growing innovative companies—startups—operate unlike other businesses and raise money in similarly distinctive ways. Eschewing traditional banks and equity markets, they turn to a startup financing ecosystem that includes corporate and institutional VC funds, crowdfunding, angel investors, growth equity, and private equity. We start by discussing key relevant stylized facts and how they lead to contracting frictions. We then discuss the various investment contracts used by startups and their associated cash flow and control rights. Given that startups almost invariably raise multiple rounds of funding, we then discuss contracting issues associated with the evolution of cash flow and control rights. We finally discuss approaches to valuing startups, their financial securities, and the impact of contractual terms on valuation.}
+}

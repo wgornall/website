@@ -2,34 +2,36 @@
 
 % Packages and setup
 \usepackage[margin=0.75in]{geometry}
-\usepackage{microtype, cmbright, titlesec, enumitem, fancyhdr, lastpage, hyperref, url, multirow}
+\usepackage{microtype, cmbright, titlesec, enumitem, fancyhdr, lastpage, hyperref, url, multirow, enumitem}
+
 
 % Typography settings
-\setlength{\parindent}{0in}
-\sloppy
 \urlstyle{same}
+\setlength{\parindent}{0in}
 \clubpenalty=10000
 \widowpenalty=10000
 
 % List settings
-\setlist[itemize]{labelsep=*, leftmargin=1.7cm, align=left, labelwidth=*, label={},   }
+\newlist{datelist}{itemize}{1}
+\setlist[datelist]{leftmargin=2cm, align=left, labelwidth=*, label={},  }
+
+\newlist{nondatelist}{itemize}{1}
+\setlist[nondatelist]{leftmargin=0pt, label={},  labelwidth=0pt, labelsep=0pt,}
+
 
 % Header and footer
 \pagestyle{fancy}
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
-\lfoot{\vspace{-0.5cm}\quad\quad CV: Will Gornall}
-\cfoot{\vspace{-0.5cm}\thepage/\pageref{LastPage}}
-\rfoot{\vspace{-0.5cm}2024-09-02 \quad\quad}
+\cfoot{\hfill CV: Will Gornall \hfill \thepage/\pageref{LastPage}  \hfill  2024-09-02 \hfill}
 
 \begin{document}
 
-% Header
-\noindent
+% Name block
 \begin{tabular}{@{}l@{\quad\quad}l}
 \multirow{2}{*}{\huge\textbf{WILL GORNALL}} & 
 \href{mailto:will.gornall@sauder.ubc.ca}{\nolinkurl{will.gornall@ubc.ca}} \ $\cdot$ \
-\href{willgornall.com}{willgornall.com} \ $\cdot$ \ 
+\href{https://willgornall.com}{willgornall.com} \ $\cdot$ \ 
 \href{tel:1 604 827 4372}{1 604 827 4372} 
 \\
 &  
@@ -40,21 +42,21 @@ VANCOUVER BC\ \ V6T 1Z2 CA
 
 
 % Sections
-\subsubsection*{ACADEMIC APPOINTMENTS}
-\begin{itemize}
+\paragraph{ACADEMIC APPOINTMENTS}
+\begin{datelist}
     \item[2023--] Associate Professor of Finance, University of British Columbia, Sauder School
     \item[2015--23] Assistant Professor of Finance, University of British Columbia, Sauder School
-\end{itemize}
+\end{datelist}
 
-\subsubsection*{EDUCATION}
-\begin{itemize}
+\paragraph{EDUCATION}
+\begin{datelist}
     \item[2010--15] Doctor of Philosophy in Finance, Stanford Graduate School of Business
     \item[2009--10] Master of Quantitative Finance, University of Waterloo
     \item[2005--09] Bachelor of Mathematics, University of Waterloo
-\end{itemize}
+\end{datelist}
 
-\subsubsection*{PEER-REVIEWED PUBLICATIONS}
-\begin{itemize}[leftmargin=0pt, labelwidth=0cm, ]
+\paragraph{PUBLICATIONS}
+\begin{nondatelist}
     \item \href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4071214}{%
         ``Customer Data Access and Fintech Entry: Early Evidence from Open Banking,'' 
         with Tania Babina, Saleem A. Bahaj, Greg Buchak, Filippo De Marco, Angus K. Foulis, Francesco Mazzola, and Tong Yu, 
@@ -94,10 +96,10 @@ VANCOUVER BC\ \ V6T 1Z2 CA
         ``Locally-Capped Investment Products and the Retail Investor,'' 
         with Carole Bernard and Phelim Boyle, 
         2011, \textbf{Journal of Derivatives} 18(4), 72--88}
-\end{itemize}
+\end{nondatelist}
 
-\subsubsection*{WORKING PAPERS}
-\begin{itemize}[leftmargin=0pt, labelwidth=0cm, ]
+\paragraph{WORKING PAPERS}
+\begin{nondatelist}
     \item \href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4235337}{%
         ``The Value of Privacy and the Choice of Limited Partners by Venture Capitalists,'' 
         with Rustam Abuzov and Ilya A. Strebulaev, 
@@ -116,14 +118,14 @@ VANCOUVER BC\ \ V6T 1Z2 CA
     \item \href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2526574}{%
         ``Safe Assets and Dangerous Liabilities: How Bank-Level Frictions Explain Bank Seniority,'' 
         2017}
-\end{itemize}
+\end{nondatelist}
 
-\subsubsection*{NON-PEER-REVIEWED PUBLICATIONS}
-\begin{itemize}[leftmargin=0pt, labelwidth=0cm, ]
+\paragraph{OTHER WORK}
+\begin{nondatelist}
     \item \href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4038538}{%
         ``The Contracting and Valuation of Venture Capital-Backed Companies'' 
         with Ilya Strebulaev, 
-        2023, In: Eckbo, B.E., Phillips, G.M. , Sorensen, M. (eds) \textbf{Handbook of the Economics of Corporate Finance}. Amsterdam: North-Holland, an imprint of Elsevier. 1, 3-76}
+        2023, In: Eckbo, B.E., Phillips, G.M., Sorensen, M. (eds) \textbf{Handbook of the Economics of Corporate Finance}. Amsterdam: North-Holland, an imprint of Elsevier. 1, 3-76}
 
     \item \href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4038538}{%
         ``Venture Capital Valuation'' 
@@ -134,10 +136,10 @@ VANCOUVER BC\ \ V6T 1Z2 CA
         ``How Venture Capitalists Make Decisions'' 
         with Paul Gompers, Steven Kaplan, and Ilya Strebulaev, 
         2021, \textbf{Harvard Business Review}, 99.2 (2021): 70-+}
-\end{itemize}
+\end{nondatelist}
 
-\subsubsection*{ACADEMIC PRESENTATIONS (* denotes pending)}
-\begin{itemize}
+\paragraph{PRESENTATIONS (* denotes pending)}
+\begin{datelist}
     \item[2024] Federal Reserve Bank of Philadelphia; Carnegie Mellon University*, McGill University*
 
     \item[2023] Bank of Canada; Esade Business School, University of Alberta
@@ -161,18 +163,18 @@ VANCOUVER BC\ \ V6T 1Z2 CA
     \item[2014] Northern Finance Association; Bank of Canada, University of Frankfurt, Imperial College, Ca' Foscari University of Venice, Wilfrid Laurier University
 
     \item[2013] London Business School Transatlantic Doctoral Conference
-\end{itemize}
+\end{datelist}
 
-\subsubsection*{TEACHING}
-\begin{itemize}
+\paragraph{TEACHING}
+\begin{datelist}
     \item[2016--] Venture Capital Financing (Undergraduate/Masters), average rating 4.5/5
     \item[2016--] Corporate Finance Theory (Doctoral), average rating 4.7/5
-\end{itemize}
+\end{datelist}
 
-\subsubsection*{AWARDS, DISTINCTIONS, GRANTS}
-\begin{itemize}
+\paragraph{AWARDS / GRANTS}
+\begin{datelist}
     \item[2023] Social Sciences and Humanities Research Council Insight Grant
-    \item[2022] Mitacs Accelerate
+    \item[2022] Mitacs Accelerate Grant
     \item[2021] Jensen Prize for the Best Papers Published in the Journal of Financial Economics in the Areas of Corporate Finance and Organizations (How Do Venture Capitalists Make Decisions?)
     \item[2021] Doriot Award for the Best Private Equity Research Paper 2021 (How Do Venture Capitalists Make Decisions?)
     \item[2019--20] UBC Centre for Innovative Data in Economics Research Small Grant
@@ -184,6 +186,6 @@ VANCOUVER BC\ \ V6T 1Z2 CA
     \item[2016--18] UBC Sauder Exploratory Grant
     \item[2010--15] Stanford Graduate School of Business Fellowship
     \item[2010--14] Social Sciences and Humanities Research Council of Canada Doctoral Fellowship
-\end{itemize}
+\end{datelist}
 
 \end{document}
